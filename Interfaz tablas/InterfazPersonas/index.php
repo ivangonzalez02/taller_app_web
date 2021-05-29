@@ -8,7 +8,7 @@
 <body>
     <form method="post">
         <h1>Regístrate </h1>
-        Tipo de Documento:
+        <!--Tipo de Documento:
         <select>
             <option disabled selected="">Selecciona</option>
             <option>Cédula de Ciudadanía</option>
@@ -17,18 +17,19 @@
             <option>Registro Civíl</option>
             <option>Pasaporte</option>
         </select>
+        !-->
+        <p>Tipo de Documento:</p>
+        <input type="text" name="tipoidentificacion" placeholder="Tipo de Identificación">
         <br></br>
         <p>Número de Documento:</p>
         <input type="number" name="numeroidentificacion" placeholder="Número Identificación">
         <br></br>
-        <p>Nombres:</p>
+        <p>Nombres Completos:</p>
         <input type="text" name="name" placeholder="Nombres">
         <input type="submit" name="register">
-        <br></br>
-        <button><a href="file:///C:/xampp/htdocs/taller_app_web/index.html" target="_blank" style="right: auto;">Regresar</a> </button>
     </form>
-    
+    <?php
     include("registrar.php")
-    
+    ?>
 </body>
 </html>
