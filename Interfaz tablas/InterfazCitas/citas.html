@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registrar Cita</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <form method="post">
+        <h1>Asignar Cita </h1>
+        
+        <p>Fecha:</p>
+        <input type="text" name="name" placeholder="DD/MM/AAAA">
+        <br></br>
+        Hora:
+        <select>
+            <option disabled selected="">Selecciona</option>
+            <option>12:00 AM</option>
+            <option>1:00 AM</option>
+            <option>2:00 AM</option>
+            <option>3:00 AM</option>
+            <option>4:00 AM</option>
+            <option>5:00 AM</option>
+            <option>6:00 AM</option>
+            <option>7:00 AM</option>
+            <option>8:00 AM</option>
+            <option>9:00 AM</option>
+            <option>10:00 AM</option>
+            <option>11:00 AM</option>
+            <option>12:00 PM</option>
+            <option>1:00 PM</option>
+            <option>2:00 PM</option>
+            <option>3:00 PM</option>
+            <option>4:00 PM</option>
+            <option>5:00 PM</option>
+            <option>6:00 PM</option>
+            <option>7:00 PM</option>
+            <option>8:00 PM</option>
+            <option>9:00 PM</option>
+            <option>10:00 PM</option>
+            <option>11:00 PM</option>
+        </select>
+        <input type="submit" name="register">
+        <button>HOL</button>
+    
+        <!--<p>Tipo de Documento:</p>
+        <input type="text" name="tipoidentificacion" placeholder="Tipo de Identificación">
+        !-->
+    </form>
+    <?php
+    include("registrar.php")
+    ?>
+</body>
+</html>
